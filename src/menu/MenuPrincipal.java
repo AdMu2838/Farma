@@ -22,6 +22,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.awt.CardLayout;
 import java.awt.SystemColor;
+import com.toedter.components.JLocaleChooser;
 
 public class MenuPrincipal extends JFrame  {
 
