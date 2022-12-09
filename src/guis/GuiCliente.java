@@ -52,7 +52,6 @@ public class GuiCliente extends JInternalFrame implements ActionListener{
 	private JLabel lblNewLabel_1;
 	private JTextField txtCelular;
 	private JTextField txtCorreo;
-	private JButton btnNewButton;
 
 	/**
 	 * Launch the application.
@@ -196,12 +195,6 @@ public class GuiCliente extends JInternalFrame implements ActionListener{
 		btnEliminar.setFont(new Font("Arial", Font.BOLD, 12));
 		btnEliminar.setBounds(421, 109, 179, 35);
 		getContentPane().add(btnEliminar);
-		
-		btnNewButton = new JButton("MANDAR CORREO");
-		btnNewButton.setIcon(new ImageIcon(GuiCliente.class.getResource("/img/enviar-correo.png")));
-		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 12));
-		btnNewButton.setBounds(421, 155, 179, 34);
-		getContentPane().add(btnNewButton);
 		CargarLista();
 	}
 
