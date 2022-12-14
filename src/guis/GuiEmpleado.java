@@ -268,7 +268,7 @@ public class GuiEmpleado extends JInternalFrame implements ActionListener{
 							int resultado = gestorEmpleado.registrar(obj);
 							
 							if(resultado == 1) {
-								JOptionPane.showMessageDialog(this, "Se registr� el empleado");
+								JOptionPane.showMessageDialog(this, "Se registró el empleado");
 								CargarLista();
 								LimpiarFormulario();
 							}
@@ -321,7 +321,7 @@ public class GuiEmpleado extends JInternalFrame implements ActionListener{
 							int resultado = gestorEmpleado.actualizar(obj);
 							
 							if(resultado == 1) {
-								JOptionPane.showMessageDialog(this, "Se actualiz� el empleado");
+								JOptionPane.showMessageDialog(this, "Se actualizó el empleado");
 								CargarLista();
 								LimpiarFormulario();
 							}
@@ -351,7 +351,7 @@ public class GuiEmpleado extends JInternalFrame implements ActionListener{
 				int resultado = gestorEmpleado.eliminar(codigo);
 				
 				if(resultado == 1) {
-					JOptionPane.showMessageDialog(this, "Se elimin� el empleado");
+					JOptionPane.showMessageDialog(this, "Se eliminó el empleado");
 					CargarLista();
 					LimpiarFormulario();
 				}

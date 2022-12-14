@@ -17,7 +17,7 @@ public class MySQLConnection {
 		} catch (ClassNotFoundException e) {
 			System.out.println("Error >> Driver no Instalado!!" + e.getMessage());
 		} catch (SQLException e) {
-			System.out.println("Error >> de conexi�n con la BD" + e.getMessage());
+			System.out.println("Error >> de conexión con la BD" + e.getMessage());
 		} catch (Exception e) {
 			System.out.println("Error >> general : " + e.getMessage());
 		} 

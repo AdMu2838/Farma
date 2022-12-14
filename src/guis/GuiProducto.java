@@ -278,7 +278,7 @@ public class GuiProducto extends JInternalFrame implements ActionListener, Inter
 						int resultado = gestorProducto.registrar(obj);
 						
 						if(resultado == 1) {
-							JOptionPane.showMessageDialog(this, "Se registr� el producto");
+							JOptionPane.showMessageDialog(this, "Se registró el producto");
 							CargarLista();
 							LimpiarFormulario();
 						}
@@ -334,7 +334,7 @@ public class GuiProducto extends JInternalFrame implements ActionListener, Inter
 							int resultado = gestorProducto.actualizar(obj);
 							
 							if(resultado == 1) {
-								JOptionPane.showMessageDialog(this, "Se actualiz� el producto");
+								JOptionPane.showMessageDialog(this, "Se actualizó el producto");
 								CargarLista();
 								LimpiarFormulario();
 							}
@@ -359,7 +359,7 @@ public class GuiProducto extends JInternalFrame implements ActionListener, Inter
 				int resultado = gestorProducto.eliminar(codigo);
 				
 				if(resultado == 1) {
-					JOptionPane.showMessageDialog(this, "Se elimin� el producto");					
+					JOptionPane.showMessageDialog(this, "Se eliminó el producto");					
 					LimpiarFormulario();
 					
 				}

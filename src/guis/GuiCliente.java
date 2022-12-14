@@ -287,7 +287,7 @@ public class GuiCliente extends JInternalFrame implements ActionListener{
 							int resultado = gestorCliente.registrar(obj);
 							
 							if(resultado == 1) {
-								JOptionPane.showMessageDialog(this, "Se registr� el cliente");
+								JOptionPane.showMessageDialog(this, "Se registró el cliente");
 								CargarLista();
 								LimpiarFormulario();
 							}
@@ -338,7 +338,7 @@ public class GuiCliente extends JInternalFrame implements ActionListener{
 						int resultado = gestorCliente.actualizar(obj);
 						
 						if(resultado == 1) {
-							JOptionPane.showMessageDialog(this, "Se actualiz� el cliente");
+							JOptionPane.showMessageDialog(this, "Se actualizó el cliente");
 							CargarLista();
 							LimpiarFormulario();
 						}
@@ -365,7 +365,7 @@ public class GuiCliente extends JInternalFrame implements ActionListener{
 				int resultado = gestorCliente.eliminar(codigo);
 				
 				if(resultado == 1) {
-					JOptionPane.showMessageDialog(this, "Se elimin� el cliente");
+					JOptionPane.showMessageDialog(this, "Se eliminó el cliente");
 					CargarLista();
 					LimpiarFormulario();
 				}

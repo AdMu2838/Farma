@@ -254,7 +254,7 @@ public class GuiProveedor extends JInternalFrame implements ActionListener{
 					int resultado = gestorProveedor.registrar(obj);
 					
 					if(resultado == 1) {
-						JOptionPane.showMessageDialog(this, "Se registr� el proveedor");
+						JOptionPane.showMessageDialog(this, "Se registró el proveedor");
 						CargarLista();
 						LimpiarFormulario();
 					}
@@ -303,7 +303,7 @@ public class GuiProveedor extends JInternalFrame implements ActionListener{
 						int resultado = gestorProveedor.actualizar(obj);
 						
 						if(resultado == 1) {
-							JOptionPane.showMessageDialog(this, "Se actualiz� el proveedor");
+							JOptionPane.showMessageDialog(this, "Se actualizó el proveedor");
 							CargarLista();
 							LimpiarFormulario();
 						}
@@ -327,7 +327,7 @@ public class GuiProveedor extends JInternalFrame implements ActionListener{
 				int resultado = gestorProveedor.eliminar(codigo);
 				
 				if(resultado == 1) {
-					JOptionPane.showMessageDialog(this, "Se elimin� el proveedor");
+					JOptionPane.showMessageDialog(this, "Se eliminó el proveedor");
 					CargarLista();
 					LimpiarFormulario();
 				}
